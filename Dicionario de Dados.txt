@@ -1,0 +1,42 @@
+Integrantes: Ana Luiza, Daniel, Marcos e Maria 
+
+Variável                               | Descrição                                         |Valores       |Tipo               
+IDATRACACAO                            |Código de identificação da atracação               |VARCHAR(10)   |Texto             
+CDTUP                                  |Código de identificação do porto informante        |VARCHAR(10)   |Texto             
+IDBERCO                                |Código de identificação do berço                   |VARCHAR(10)   |Texto             
+Berco                                  |Nome do berço do porto informante                  |VARCHAR(50)   |Texto             
+Porto Atracação                        |Nome do porto informante                           |VARCHAR(100)  |Texto             
+Coordenadas                            |Latitude e longitude em Graus Decimais.            |VARCHAR(30)   |Texto              
+Apelido Instalação Portuária           |Apelido do porto informante                        |VARCHAR(50)   |Texto              
+Complexo Portuário                     |Complexo Portuário do porto informante             |VARCHAR(100)  |Texto               
+Tipo da Autoridade Portuária           |Tipo de autoridade portuária                       |VARCHAR(20)   |Texto               
+Data Atracação                         |Data e hora de atracação                           |DATETIME	  |Data e Hora      
+Data Chegada                           |Data e hora de chegada                             |DATETIME      |Data e Hora      
+Data Desatracação                      |Data e hora de desatracação                        |DATETIME      |Data e Hora      
+Data Início Operação                   |Data e hora de início da operação                  |DATETIME      |Data e Hora      
+Data Término Operação                  |Data e hora de término da operação	           |DATETIME	  |Data e Hora       
+Ano                                    |Ano da desatracação	                           |INT	          |Número             
+Mês                                    |Mês da desatracação	                           |INT	          |Número             
+Tipo de Operação                       |Finalidade da atracação	                           |INT	          |Número             
+Tipo de Navegação                      |Tipo de navegação da embarcação                    |INT	          |Número             
+Nacionalidade do Armador               |Nacionalidade do armador	                   |INT	          |Número             
+FlagMCOperacaoAtracacao                |Identifica movimentação de carga	           |BIT	          |Booleano           
+Terminal                               |Terminal arrendado ou público 	                   |VARCHAR(50)   |Texto                 
+Município                              |Município do porto informante	                   |VARCHAR(50)   |Texto                
+UF                                     |Nome da unidade da federação	                   |VARCHAR(50)   |Texto                 
+SGUF                                   |Sigla da unidade da federação	                   |CHAR(2)	  |Texto                  
+Região Geográfica                      |Nome da região geográfica	                   |VARCHAR(50)   |Texto                  
+Região Hidrográfica                    |Nome da região hidrográfica                        |VARCHAR(50)   |Texto                  
+Instalação Portuária em Rio            |Porto localizado em rio brasileiro	           |BIT	          |Booleano            
+Nº da Capitania                        |Código atribuído pela Capitania dos Portos         |VARCHAR(20)   |Texto                  
+Nº do IMO                              |Número IMO da embarcação	                   |VARCHAR(20)   |Texto                 
+TEsperaAtracacao                       |Diferença entre atracação e chegada	           |DECIMAL(5,2)  |Número (horas) 
+TEsperaInicioOp                        |Diferença entre início da operação e atracação     |DECIMAL(5,2)  |Número (horas) 
+TOperacao                              |Diferença entre término e início da operação       |DECIMAL(5,2)  |Número (horas)
+TEsperaDesatracacao                    |Diferença entre desatracação e término da operação |DECIMAL(5,2)  |Número (horas)
+Tatracado                              |Soma dos tempos atracado	                   |DECIMAL(5,2)  |Número (Horas)
+Testadia                               |Soma dos tempos desde chegada até desatracação     |DECIMAL(5,2)  |Número (Horas)
+IDTemposDescontos                      |Código de identificação da atracação	           |VARCHAR(10)   |Texto                
+DescricaoTempoDesconto                 |Motivo da paralisação da atracação.	           |VARCHAR(100)  |Texto               
+DTInicio                               |Data e hora de início da paralisação.	           |DATETIME      |Data e Hora     
+DTTermino                              |Data e hora de término da paralisação.	           |DATETIME      |Data e Hora     
