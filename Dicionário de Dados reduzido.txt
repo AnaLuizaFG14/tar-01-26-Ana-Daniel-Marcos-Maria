@@ -1,0 +1,38 @@
+Integrantes: Ana Luiza, Daniel, Marcos e Maria 
+
+Variavel                               | Descricao                                         |Valores       |Tipo               
+IDATRACACAO                            |Codigo_de_identificacao_da_atracacao               |VARCHAR(10)   |Texto             
+CDTUP                                  |Codigo_de_identificacao_do_porto_informante        |VARCHAR(10)   |Texto             
+IDBERCO                                |Codigo_de_identificacao_do_berco                   |VARCHAR(10)   |Texto             
+Berco                                  |Nome_do_berco_do_porto_informante                  |VARCHAR(50)   |Texto             
+Porto_Atracacao                        |Nome_do_porto_informante                           |VARCHAR(100)  |Texto             
+Coordenadas                            |Latitude_e_longitude_em_Graus_Decimais             |VARCHAR(30)   |Texto              
+Apelido_Instalacao_Portuaria           |Apelido_do_porto_informante                        |VARCHAR(50)   |Texto              
+Complexo_Portuario                     |Complexo_Portuario_do_porto_informante             |VARCHAR(100)  |Texto               
+Tipo_da_Autoridade_Portuaria           |Tipo_de_autoridade_portuaria                       |VARCHAR(20)   |Texto               
+Data_Atracaçao                         |Data_e_hora_de_atracaçao                           |DATETIME	  |Data_e_Hora        
+Data_Chegada                           |Data_e_hora_de_chegada                             |DATETIME      |Data_e_Hora        
+Data_Desatracacao                      |Data_e_hora_de_desatracaçao                        |DATETIME      |Data_e_Hora       
+Data_Inicio_Operaçao                   |Data_e_hora_de_inicio_da_operacao                  |DATETIME      |Data_e_Hora      
+Data_Termino_Operaçao                  |Data_e_hora_de_termino_da_operaçao	           |DATETIME	  |Data_e_Hora       
+Ano                                    |Ano_da_desatracaçao	                           |INT	          |Numero             
+Mes                                    |Mes_da_desatracacao	                           |INT	          |Numero             
+Tipo_de_Operaçao                       |Finalidade_da_atracaçao	                           |INT	          |Numero           
+Tipo_de_Navegaçao                      |Tipo_de_navegaçao_da_embarcaçao                    |INT	          |Numero             
+Nacionalidade_do_Armador               |Nacionalidade_do_armador	                   |INT	          |Numero            
+FlagMCOperacaoAtracacao                |Identifica_movimentacao_de_carga	           |BIT	          |Booleano           
+Terminal                               |Terminal_arrendado_ou_publico 	                   |VARCHAR(50)   |Texto                 
+Municipio                              |Municipio_do_porto_informante	                   |VARCHAR(50)   |Texto                
+UF                                     |Nome_da_unidade_da_federacao	                   |VARCHAR(50)   |Texto                 
+SGUF                                   |Sigla_da_unidade_da_federaçao	                   |CHAR(2)	  |Texto                  
+Regiao_Geografica                      |Nome_da_regiao_geografica	                   |VARCHAR(50)   |Texto                  
+Regiao_Hidrografica                    |Nome_da_regiao_hidrografica                        |VARCHAR(50)   |Texto                  
+Instalacao_Portuaria_em_Rio            |Porto_localizado_em_rio_brasileiro	           |BIT	          |Booleano            
+Nº_da_Capitania                        |Codigo_atribuido_pela_Capitania_dos_Portos         |VARCHAR(20)   |Texto                  
+Nº_do_IMO                              |Numero_IMO_da_embarcacao	                   |VARCHAR(20)   |Texto     
+Longitude                              |Longitude_do_local_de_atracacao                    |FLOAT         |Numero
+Latitude                               |Latitude_do_local_de_atracacao                     |FLOAT         |Numero
+Tempo_atracacao_horas                  |Tempo_de_atracacao_em_horas                        |FLOAT         |Numero
+Tempo_operação_horas                  |Tempo_de_operação_em_horas                        |FLOAT         |Numero
+
+
